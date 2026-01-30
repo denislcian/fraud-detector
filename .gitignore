@@ -1,0 +1,11 @@
+# Entorno y Python
+venv/
+__pycache__/
+*.pyc
+
+# Datos pesados (GitHub tiene un límite de 100MB por archivo)
+data/*.csv
+
+# Modelos y temporales
+models/*.pkl
+.ipynb_checkpoints/
